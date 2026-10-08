@@ -1,0 +1,32 @@
+{
+  "schema": "dijkstra-toolkit-v1",
+  "vertex_count": 4,
+  "graph_version": "disconnected-v1",
+  "weight_unit": "minutes",
+  "labels": [
+    "Start",
+    "Transfer",
+    "Destination",
+    "Isolated"
+  ],
+  "edges": [
+    {
+      "edge_id": 0,
+      "tail": 0,
+      "head": 1,
+      "weight": 2
+    },
+    {
+      "edge_id": 1,
+      "tail": 1,
+      "head": 2,
+      "weight": 3
+    },
+    {
+      "edge_id": 2,
+      "tail": 0,
+      "head": 2,
+      "weight": 9
+    }
+  ]
+}

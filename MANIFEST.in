@@ -1,0 +1,7 @@
+include README.md INSTRUCTIONS.md CONTRIBUTING.md CHANGELOG.md LICENSE VALIDATION.md
+recursive-include docs *.md
+recursive-include data *.json *.ndjson
+recursive-include examples *.py
+recursive-include benchmarks *.py
+recursive-include tests *.py
+global-exclude __pycache__ *.py[cod] .DS_Store

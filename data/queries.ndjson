@@ -1,0 +1,3 @@
+{"query_id": "A-to-G", "source": 0, "target": 6}
+{"query_id": "G-to-A", "source": 6, "target": 0}
+{"query_id": "A-to-A", "source": 0, "target": 0}

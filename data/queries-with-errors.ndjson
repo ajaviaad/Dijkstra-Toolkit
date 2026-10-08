@@ -1,0 +1,3 @@
+{"query_id": "valid", "source": 0, "target": 2}
+{"query_id": "unreachable", "source": 0, "target": 3}
+{"query_id": "invalid", "source": 0, "target": 99}

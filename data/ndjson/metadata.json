@@ -1,0 +1,17 @@
+{
+  "schema": "weighted-digraph-v1",
+  "vertex_count": 7,
+  "graph_version": "a-g-v1",
+  "weight_unit": "cost-unit",
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "edge_file": "edges.ndjson",
+  "sha256_base64": "z3pBLMOJtn1v1LvwbhAzG+jd0Tk3/So3een6T2P5X5A="
+}

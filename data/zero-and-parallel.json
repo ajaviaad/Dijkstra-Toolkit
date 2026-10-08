@@ -1,0 +1,44 @@
+{
+  "schema": "dijkstra-toolkit-v1",
+  "vertex_count": 4,
+  "graph_version": "zero-parallel-v1",
+  "weight_unit": "cost-unit",
+  "edges": [
+    {
+      "edge_id": 0,
+      "tail": 0,
+      "head": 1,
+      "weight": 5
+    },
+    {
+      "edge_id": 1,
+      "tail": 0,
+      "head": 1,
+      "weight": 2
+    },
+    {
+      "edge_id": 2,
+      "tail": 1,
+      "head": 2,
+      "weight": 0
+    },
+    {
+      "edge_id": 3,
+      "tail": 2,
+      "head": 1,
+      "weight": 0
+    },
+    {
+      "edge_id": 4,
+      "tail": 2,
+      "head": 3,
+      "weight": 1
+    },
+    {
+      "edge_id": 5,
+      "tail": 1,
+      "head": 3,
+      "weight": 1
+    }
+  ]
+}

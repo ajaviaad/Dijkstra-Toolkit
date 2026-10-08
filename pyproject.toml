@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dijkstra-toolkit"
+version = "0.1.0"
+description = "Exact shortest paths, route certificates, and reproducible graph experiments"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["dijkstra", "shortest-path", "graphs", "routing", "algorithms"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = []
+
+[project.scripts]
+dijkstra-toolkit = "dijkstra_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dijkstra_toolkit*"]
+
+[tool.setuptools.package-data]
+dijkstra_toolkit = ["py.typed"]
